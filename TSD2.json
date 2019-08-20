@@ -1,0 +1,30 @@
+{
+	"number_of_vehicles": 10,
+	"capacity": 50,
+	"modelling_time": 1080,
+	"ticket_price": 30,
+	"routes":
+	[
+		{
+			"name": "Test_1",
+			"route": [1,2,3,4],
+			"route_length": 60
+		},
+		{
+			"name": "Test_2",
+			"route": [2,3,5],
+			"route_length": 40
+		}
+	],
+	"fake_routes":
+	[
+		[2,3]
+	],
+	"flows_of_passengers":
+	[
+		{
+			"indexes": [1,2],
+			"intensity": 0
+		}
+	]
+}
